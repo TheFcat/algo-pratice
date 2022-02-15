@@ -10,6 +10,7 @@ def insertion_sort(data):
             j -= 1
         data[j+1] = key
 
+
 if __name__ == '__main__':
     data = [random.randrange(100) for i in range(20)]
     print(data)
